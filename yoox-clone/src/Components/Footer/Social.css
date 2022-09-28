@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Raleway&display=swap');
+*{
+    font-family: "Montserrat",sans-serif;
+}
+.socials{
+    margin-top: 0.25%;
+    background-color: rgb(228, 222, 222);
+}
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;;
+    color: #fff;
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+}

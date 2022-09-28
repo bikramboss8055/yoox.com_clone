@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Raleway&display=swap');
+*{
+    font-family: "Montserrat",sans-serif;
+}
+
+.MainPic{
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 5%;
+    /* position: absolute;
+    top: 150px; */
+    
+}
+
+.text{
+    width: 27%;
+    height: 9%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    position: absolute;
+    bottom: 70%;
+    margin-left: 2.5%;
+}
+#textBold{
+    font-size: 16px;
+    
+}
+.BorderdT{
+
+    gap: 1.5rem;
+}

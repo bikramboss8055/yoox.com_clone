@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Raleway&display=swap');
+*{
+    font-family: "Montserrat",sans-serif;
+    color: #333333;
+}
+.threePic{
+    margin: auto;
+    gap: 14%;
+    margin-top: 10%;
+
+}
+.firstPic{
+    margin-left: 46%;
+    position: relative;
+    width: 150%;
+}
+.MiddleText{
+    width: 25%;
+    height: 10%;
+    background-color: white;
+    position: absolute;
+    left: 39%;
+    bottom: 90%;
+}
+.thirdPic{
+    margin-left: 38%;
+}
+
