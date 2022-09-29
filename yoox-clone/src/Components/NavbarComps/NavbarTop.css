@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Raleway&display=swap');
+
+.TopSec{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    background-color: white;;
+    font-family:"Montserrat",sans-serif;
+    border-bottom: 1px solid gray;
+    justify-content: center;
+    gap: 50%;
+    font-size: 13px;
+    font-weight: bolder;
+    align-items: center;
+}
+.leftSec{
+    display: flex;
+    
+    gap:10%;
+    
+}
+
+.rightSec{
+    display: flex;
+    gap: 25%;
+}
