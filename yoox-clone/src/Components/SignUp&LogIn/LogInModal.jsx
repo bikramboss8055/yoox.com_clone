@@ -1,7 +1,7 @@
 import {
     Modal,ModalOverlay,ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, Box,Text,Highlight, Button, Flex,Icon, Input, Checkbox} from '@chakra-ui/react'
-    // import {FiFacebook} from "react-icons/Fi"
-    // import {FcGoogle} from "react-icons/fc"
+    import { GrFacebook } from "react-icons/gr";
+    import {FcGoogle} from "react-icons/fc"
     import { useDisclosure } from '@chakra-ui/react'
 
 export default function LogInModal({handleChange,handleClick}) {
@@ -20,10 +20,10 @@ export default function LogInModal({handleChange,handleClick}) {
                         <ModalBody>
                         <Text textAlign="center" >Log in with</Text>
                         <Flex gap="3%" mb="1rem">
-                            <Button size="lg" width="300px" colorScheme="facebook"></Button>
-                            {/* <Icon as={FiFacebook} /> */}
-                            <Button size="lg" width="300px"  border="2px solid lightgray" colorScheme="whiteAlpha"></Button>
-                            {/* <Icon as={FcGoogle} /> */}
+                            <Button size="lg" width="300px" colorScheme="facebook"><Icon as={GrFacebook} /></Button>
+                            
+                            <Button size="lg" width="300px"  border="2px solid lightgray" colorScheme="whiteAlpha"> <Icon as={FcGoogle} /></Button>
+                           
                         </Flex>    
                         <hr style={{border:"1px dashed lightgray"}}/>
                             <Text textAlign="center" >or with your e-mail address</Text>
