@@ -1,6 +1,6 @@
 import { Box, Button, Checkbox, Flex, Heading, Highlight, Icon, Image, Text } from "@chakra-ui/react";
 import CartPageNav from "./CartPageNav";
-// import {GrPaypal} from "react-icons/gr"
+import {GrPaypal} from "react-icons/gr"
 import { useEffect } from "react";
 import { useState } from "react";
 import {Table, Thead,Tbody,Tfoot,Tr,Th,Td,TableCaption,TableContainer,} from '@chakra-ui/react'
@@ -53,7 +53,7 @@ useEffect(()=>{
     .then((res)=>setData(res))
     .catch((err)=>console.log(err))
 
-},[data])
+},[])
 
 
             return(
@@ -64,8 +64,8 @@ useEffect(()=>{
                         <Flex gap="40%" mr={"5%"}>
                             <Text width="250px" ml="2%"><b>BACK TO SHOPPING</b></Text>
                            <Flex gap="4%"marginRight="-80%">
-                            <Button backgroundColor="yellow" size="lg" width="200px"></Button>
-                            {/* <Icon as={GrPaypal}/> */}
+                            <Button backgroundColor="yellow" size="lg" width="200px"> <Icon as={GrPaypal}/></Button>
+                           
                             <Text><b>or</b></Text>
                             <Button backgroundColor="#333333" ><Text color="white"><NavLink to={"/shipping"}>PROCEED WITH YOUR ORDER</NavLink></Text></Button>
                            </Flex>
@@ -81,6 +81,7 @@ useEffect(()=>{
                                 <Th><b>Details</b></Th>
                                 <Th><b>Quantity</b></Th>
                                 <Th><b>Price</b></Th>
+                                <Th><b>Remove</b></Th>
                             </Tr>
                         </Thead>
                         <Tbody>
@@ -100,7 +101,19 @@ useEffect(()=>{
                                             <Button colorScheme="orange" onClick={()=>handleQty(elem.id,+1)} width="70px">+</Button>
                                             </Flex>
                                             </Td>
-                                        <Td>${Number(elem.Qt)*Number(elem.price)}</Td>       
+                                        <Td>${Number(elem.Qt)*Number(elem.price)}</Td> 
+                                        {/* { console.log(data)} */}
+                                        <Td><Button onClick={()=>{
+                                            //  let items= data;
+                                             setData((prev)=>{
+                                                return data.filter((ele)=>{
+                                                    return ele.id !== elem.id
+                                                })
+                                             })
+
+                                            
+                                            
+                                        }}>Remove</Button></Td>      
                                     </Tr>
                                 ))
                             }

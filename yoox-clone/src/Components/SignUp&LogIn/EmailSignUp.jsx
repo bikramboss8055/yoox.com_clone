@@ -57,7 +57,7 @@ export default function EmailSignUp({handleChange,handleClick}){
             <FormLabel fontSize="smaller" width="400px"><b>
                 If you are over 18 years old, celebrate your birthday with us: We have a surprise for you.</b>
                 </FormLabel>
-            <Input type="text" variant="styled" size="lg" width="400px" name="DOB"
+            <Input type="date" variant="styled" size="lg" width="400px" name="DOB"
              backgroundColor="#f6f6f6" color="black"
             _placeholder={{ color: 'inherit' }} onChange={handleChange}
             placeholder="DATE OF BIRTH" m="2%" /> 
