@@ -34,10 +34,6 @@ unit-4 construction week(rct-101)
 
  ### Following are the Screenshots for the reference
 
-- *Landing Page*
-
-  ![Screenshot (901)](Screenshot (669).png)
-
 
 - *Home Page Section*
 
@@ -68,19 +64,14 @@ This project was built using React, Chakra UI, CSS, JavaScript. To run it in you
 ### Setup
 
 
-The project repository can be found in [GitHub link](https://github.com/IntriguedSayan/Yoox-clone.git) or just clone the project using this command. 
+The project repository can be found in [GitHub link](https://github.com/bikramboss8055/yoox.com_clone) or just clone the project using this command. 
 
 
 ```
 Using HTTPS
-# git clone https://github.com/IntriguedSayan/Yoox-clone.git
+# git clone https://github.com/bikramboss8055/yoox.com_clone.git
 ```
 
-+ Open terminal on your workspace with
-
-```
-cd /home/workspace/Yoox-Clone/YooxClone
-```
 
 
 ## Install
@@ -145,4 +136,4 @@ Enter password -> Login -> Landing page-> -> Products Page -> Add to cart -> Buy
 <br/>
 
 ## Contributor
-- [Sayan Mukherjee](https://github.com/IntriguedSayan)
+- [Bikram Dutta](https://github.com/bikramboss8055)
