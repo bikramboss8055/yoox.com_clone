@@ -23,7 +23,7 @@ unit-4 construction week(rct-101)
 
  ### Netlify Link
 
-<h3 align="center"><a href="https://sayanyoox.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
+https://yoox-by-bikram-dutta.netlify.app/
 
 ---
 
